@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CSI</string>
+    <string name="testString">Lorum Ipsum</string>
+    <string name="info_name">Name:</string>
+    <string name="info_name2">Bowie</string>
+    <string name="info_gender">Gender:</string>
+    <string name="info_gender2">Male</string>
+    <string name="info_age">Age:</string>
+    <string name="info_age2">69</string>
+    <string name="info_bounty">Bounty:</string>
+    <string name="info_bounty2">€1337,-</string>
+    <string name="lorum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</string>
+</resources>
