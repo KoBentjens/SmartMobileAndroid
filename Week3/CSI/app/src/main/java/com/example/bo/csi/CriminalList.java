@@ -33,7 +33,6 @@ public class CriminalList extends AppCompatActivity {
                                     int position, long id) {
                 //Get the name from the array that is in the same position as the chosen listitem.
                 String name = criminals[position];
-                //Todo start intent and pass name using putExtra
 
                 Intent intent = new Intent(v.getContext(), Criminal.class);
                 intent.putExtra("name",name);

@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:contentDescription="@string/testString"
-        android:src="@drawable/mybadguy"
+        android:src="@drawable/bowie"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:cropToPadding="false"
