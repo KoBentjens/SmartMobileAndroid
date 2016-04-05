@@ -1,4 +1,4 @@
-package com.example.bo.csi;
+package csi.fhict.org.csi_week_1;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ public class Criminal {
 	public int age;
 	
 	public ArrayList<Crime> crimes;
-
+	
 	public Drawable mugshot;
 	public Location lastKnownLocation;
 	

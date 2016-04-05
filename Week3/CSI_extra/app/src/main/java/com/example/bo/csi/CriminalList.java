@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class CriminalList2 extends AppCompatActivity {
+public class CriminalList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item >Bowie</item>
+        <item >Bert</item>
+        <item >Gil G</item>
+    </string-array>
+
+</resources>
