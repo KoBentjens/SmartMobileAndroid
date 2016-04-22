@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SleepyApp</string>
+    <string name="AppTitle">Sleepy App</string>
+    <string name="Settings"><u>Settings</u></string>
+    <string name="title_activity_settings">settings</string>
+    <string name="title_activity_music_source">MusicSource</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="GPMusic"><u>Google Play Music</u></string>
+    <string name="Spotify"><u>Spotify</u></string>
+    <string name="LocalData"><u>Local Data</u></string>
+    <string name="Soundhound"><u>Soundhound</u></string>
+    <string name="Back"><u>Back</u></string>
+    <string name="MusicPreferences"><u>Music Preferences</u></string>
+    <string name="MusicSource"><u>Music Source</u></string>
+    <string name="DeviceConnection"><u>Device Connection</u></string>
+    <string name="Preferences"><u>Preferences</u></string>
+    <string name="AutomaticVolumeDetection"><u>Automatic volume detection</u></string>
+    <string name="AutomaticSleepDetection"><u>Automatic sleep detection</u></string>
+    <string name="sharedPreferencesGoogleMusic">spGoogleMusic</string>
+    <string name="SharedPreferencesSpotify">spSpotify</string>
+    <string name="SharedPreferencesSoundHound">spSoundHound</string>
+    <string name="SharedPreferencesLocalData">spLocalData</string>
+    <string name="title_activity_devices">Devices</string>
+</resources>

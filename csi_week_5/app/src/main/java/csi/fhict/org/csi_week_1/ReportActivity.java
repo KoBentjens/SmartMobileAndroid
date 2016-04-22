@@ -58,24 +58,24 @@ public class ReportActivity extends AppCompatActivity implements LocationListene
             @TargetApi(Build.VERSION_CODES.M)
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (buttonView.isChecked()) {
-                    //do something
-                    if (checkPermission()) {
-                        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, TIME_UPDATES, DISTANCE_UPDATES, ReportActivity.this);
+                    if (buttonView.isChecked()) {
+                        //do something
+                        if (checkPermission()) {
+                            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, TIME_UPDATES, DISTANCE_UPDATES, ReportActivity.this);
 
-                        tvLoc.setText("Distance: " + String.valueOf(Math.round(distance(latitude, longitude, criminalLat, criminalLong, "K"))));
-                        double distance = Math.round(distance(latitude, longitude, criminalLat, criminalLong, "K"));
-                        if (distance < 12000) {
-                            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                            long[] pattern = new long[]{0, 500, 110, 500, 110, 450, 110, 200, 110, 170, 40, 450, 110, 200, 110, 170, 40, 500} ;
-                            v.vibrate(pattern, -1);
+                            tvLoc.setText("Distance: " + String.valueOf(Math.round(distance(latitude, longitude, criminalLat, criminalLong, "K"))));
+                            double distance = Math.round(distance(latitude, longitude, criminalLat, criminalLong, "K"));
+                            if (distance < 12000) {
+                                Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                                long[] pattern = new long[]{0, 500, 110, 500, 110, 450, 110, 200, 110, 170, 40, 450, 110, 200, 110, 170, 40, 500} ;
+                                v.vibrate(pattern, -1);
 
+                            }
+                        } else {
+                            requestPermission();
                         }
                     } else {
-                        requestPermission();
-                    }
-                } else {
-                    //do something
+                        //do something
                 }
             }
         });

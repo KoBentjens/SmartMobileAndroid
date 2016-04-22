@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueLight</item>
+        <item name="colorPrimaryDark">@color/blueDark</item>
+        <item name="colorAccent">@color/cremeDark</item>
+    </style>
+
+    <style name="textTitle">
+        <item name="android:fontFamily">"serif-monospace"</item>
+        <item name="android:textColor">@color/cremeDark</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:padding">25dp</item>
+    </style>
+
+    <style name="textSecondary">
+        <item name="android:fontFamily">"serif-monospace"</item>
+        <item name="android:textColor">@color/cremeDark</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">25dp</item>
+    </style>
+
+    <style name="textNormal">
+        <item name="android:fontFamily">"serif-monospace"</item>
+        <item name="android:textColor">@color/cremeDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">25dp</item>
+    </style>
+
+    <style name="textMini">
+        <item name="android:fontFamily">"serif-monospace"</item>
+        <item name="android:textColor">@color/cremeDark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

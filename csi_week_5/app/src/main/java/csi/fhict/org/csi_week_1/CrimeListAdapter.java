@@ -10,9 +10,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by Nick on 17-3-2016.
- */
 public class CrimeListAdapter extends ArrayAdapter<Crime> {
 
     private Context context;
